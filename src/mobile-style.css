@@ -216,7 +216,7 @@ html {
 
 /********** Memberslogin **************/
 .register{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #111e6c, #f7c53b);
     margin-top: 3%;
     padding: 3%;
 }
@@ -272,7 +272,7 @@ html {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #003265;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -281,7 +281,7 @@ html {
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
+    background: #003265;
     border-radius: 1.5rem;
     width: 28%;
     float: right;
@@ -299,8 +299,8 @@ html {
 }
 .register .nav-tabs .nav-link.active{
     width: 100px;
-    color: #0062cc;
-    border: 2px solid #0062cc;
+    color: #003265;
+    border: 2px solid #003265;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
