@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Alpha Chapter-Alpha Nu Omega Sorority, Incorporated</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link rel="stylesheet" href="src/mobile-style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <header id="main-header">
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <a class="nav-link" href="#main-header"><img class="shield" src="assets/ANQShield dark.png">
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-align-right text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#main-header"
+                  >HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="History.html">HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Events.html">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Feature.html">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="MembersOnly.html">MEMBERS ONLY</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container text-center header-ctr">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-md-7 header-text">
+            <h2>
+              The
+              <a
+                class="typewrite"
+                data-period="2000"
+                data-type='[ "Anointed", "Always", "Awesome Alpha Chapter of " ]'
+              >
+                <span class="wrap"></span>
+              </a>
+
+            <h1>Alpha Nu Omega Sorority, Incorporated</h1>
+            <h5>
+              Morgan State University
+            </h5>
+            <br />
+          </div>
+          <div class="col-md-5 col-sm-12 main-img h-25">
+            <img src="assets/ANQShield dark.png" alt="ANQShield dark" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-screen">
+      <section class="section-1">
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              I'm gonna play this game the way I want to. It might be serious, 
+              it might be a comedy, it might be a dramedy, it might be variety, 
+              it might be a talk show, whatever. There's no box.
+            </p>
+            <p class="text-right">- Mo'Nique '87</p>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              Now we better understand the awesome powers that each person has. 
+              Some are consciously aware of that power while others are not, 
+              but all have that power; all are born with that power, but because 
+              of the system that they’re born under, that power is usurped, 
+              negated, and they are taken on another route. Many never access it - 
+              the power that is theirs, the creativity that is theirs, the beauty 
+              that is theirs, the geniuses that they are.
+            </p>
+            <p class="text-right">- Walt Dickerson '53</p>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              You can have great ideas and great thoughts but they have to be 
+              backed up by something.
+            </p>
+            <p class="text-right">- Earl G. Graves, Sr. '58</p>
+            <!-- Sometimes having no idea what is going to happen next might 
+              be the way to go. Because life just happens, and when it 
+              does, how you handle it will teach you more about who you 
+              are than any class or test ever can. - Valerie Thomas '64 -->
+          </div>
+        </div>
+      </section>
+
+      <section id="main-pwelcome" class="section-2">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="assets/J.png" alt="J" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h2>President's Greeting</h2>
+                <p>
+                  On behalf of thee Awesome Alpha Chapter of Alpha Nu Omega Sorority Inc. at Morgan State University, we would like to welcome you to our website. Remember life is what you make it and is ultimately determined by whom you choose to follow. "Trust in the Lord with all thine heart and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."(Proverbs 3:5-6 KJV) Thank you for stopping by and stay blessed for God is with you.<br />
+                  <br />Sincerely,<br />
+                  President Jamie Soloman
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3 container-fluid p-0">
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>2275</h1>
+              <a href="https://linkedin.com/in/your_name/"
+                ><p><i class="fab fa-linkedin"></i> Linkedin</p></a
+              >
+            </div>
+            <div class="rect">
+              <h1>75</h1>
+              <a href="https://github.com/your_name" target="_blank"
+                ><p><i class="fab fa-github"></i> Github</p></a
+              >
+            </div>
+            <div class="rect">
+              <h1>573</h1>
+              <a href="https://instagram.com/your_handle/" target="_blank"
+                ><p><i class="fab fa-instagram"></i> Instagram</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="main-project" class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">Projects I have done</h1>
+          <p class="text-secondary">Visit My Github Profile for My Projects: <a href="https://github.com/your_name">your_name</a></p>
+        </div>
+        <div class="cards">
+          <div class="d-flex flex-md-row flex-wrap justify-content-center">
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/background.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">My Portfolio</h4>
+                <p class="card-text">
+                  Created my personal/portfolio website using technologies like
+                  HTML5, CSS3, BOOTSTRAP v4.3 and JavaScript.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/your_name"
+                  target="_blank"
+                  class="card-link"
+                  >Project link</a
+                >
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="assets/background-def.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">New Project 2</h4>
+                <p class="card-text">Not Listed Yet.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="assets/background-def.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">New Project 3</h4>
+                <p class="card-text">Not Listed Yet.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="main-contact" class="section-5">
+        <div class="contact">
+          <div class="form-container">
+            <h2>Contact Me</h2>
+            <form
+              method="POST"
+              action="https://formspree.io/your_name@gmail.com"
+            >
+              <div class="input-field">
+                <input type="text" name="name" required="" />
+                <label>Name*</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="email" required="" />
+                <label>Email*</label>
+              </div>
+              <div class="input-field">
+                <textarea name="message" rows="5" required=""></textarea>
+                <label>Message*</label>
+              </div>
+              <input type="submit" name="" value="Send Message" class="btn" />
+            </form>
+          </div>
+        </div>
+        <div class="quote">
+          <h4>
+            " I am Alpha and Omega, the beginning and the ending, saith the Lord, which is, and which was, and which is to come, the Almighty."
+
+            <br />
+            <br /><b>- Revelation 1:8 KJV </b>
+          </h4>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-9">
+            <h4 class="text-light">Thank you</h4>
+            <p class="text-muted">Email me for any suggestions</p>
+            <p class="gmail">@ your_name@gmail.com</p>
+          </div>
+          <div class="col-md-3 follow">
+            <h4 class="text-light">Connect With Me</h4>
+            <div class="column text-light">
+              <!-- <a href="https://www.linkedin.com/in/your_name/"
+                ><i class="fab fa-linkedin"></i
+              ></a> -->
+              <a href="https://www.github.com/your_name" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.facebook.com/your_name" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/your_name/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/your_name" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 text-center">
+        <p class="pt-2 text-muted">
+          Copyright ©2019 All rights reserved | This site is
+          <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+          <a class="sp" href="https://www.github.com/your_name"
+            ><span> FIRSTNAME LASTNAME </span></a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

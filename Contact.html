@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Alpha Chapter-Alpha Nu Omega Sorority, Incorporated</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link rel="stylesheet" href="src/mobile-style.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" 
+    href="/assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <header id="main-header">
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img class="shield" src="assets/ANQShield dark.png"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-bars text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/ "
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="History.html">HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Events.html">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Membership.html">MEMBERSHIP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Links.html">LINKS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+     </header>
+
+    <section id="main-contact" class="section-5">
+        <div class="contact">
+          <div class="form-container">
+            <h2>Contact Us</h2>
+            <form
+              method="POST"
+              action="https://formspree.io/your_name@gmail.com"
+            >
+              <div class="input-field">
+                <input type="text" name="name" required="" />
+                <label>Name*</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="email" required="" />
+                <label>Email*</label>
+              </div>
+              <div class="input-field">
+                <textarea name="message" rows="5" required=""></textarea>
+                <label>Message*</label>
+              </div>
+              <input type="submit" name="" value="Send Message" class="btn" />
+            </form>
+          </div>
+        </div>
+        <div class="quote">
+          <h4>
+            Alpha Nu Omega Sorority, Incorporated</br>
+            Alpha Chapter Advisor Email Address:<br />
+            <br /><b>Shamara Murphy</br>Shamara.Murphy@morgan.edu</b>
+          </h4>
+        </div>
+      </section>
+
+      <section id="main-PRAYER" class="section-5">
+        <div class="contact">
+          <div class="form-container">
+            <h2>Prayer Request</h2>
+            <form
+              method="POST"
+              action="https://formspree.io/your_name@gmail.com"
+            >
+              <div class="input-field">
+                <input type="text" name="name" required="" />
+                <label>Name*</label>
+              </div>
+              <div class="input-field">
+                <input type="email" name="email" required="" />
+                <label>Email*</label>
+              </div>
+              <div class="input-field">
+                <textarea name="message" rows="5" required=""></textarea>
+                <label>Message*</label>
+              </div>
+              <input type="submit" name="" value="Send Message" class="btn" />
+            </form>
+          </div>
+        </div>
+        <div class="quote">
+          <h4>
+            Alpha Nu Omega Sorority, Incorporated</br>
+            Alpha Chapter Email Address:<br />
+            <br /><b>msuanqdoves@gmail.com </b>
+          </h4>
+        </div>
+      </section>
+     
+
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-9">
+            <h4 class="text-light">Thank you for checking out our website!</h4>
+            <p class="text-muted">Email us any suggestions</p>
+          </div>
+          <div class="col-md-3 follow">
+            <h4 class="text-light">Connect With Us</h4>
+            <div class="column text-light">
+              <!-- <a href="https://www.linkedin.com/in/your_name/"
+                ><i class="fab fa-linkedin"></i
+              ></a> -->
+              <a href="mailto:msuanqdoves@gmail.com?Subject=Hello%20Firstname" target="_blank"
+                ><i class="far fa-envelope"></i
+              ></a>
+              <a href="https://www.facebook.com/Alpha-Nu-Omega-Sorority-Inc-Alpha-Chapter-101660995044089" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/msuanqdoves/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/your_name" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 text-center">
+        <p class="pt-2 text-muted">
+          Copyright ©2021 Alpha Chapter<br />
+          Alpha Nu Omega Sorority, Incorporated, is not responsible for the design and content of these web pages. They are the sole property and responsibility of the Alpha Chapter who hosts and maintains this website.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
